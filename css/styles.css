@@ -108,9 +108,6 @@ a {
 
 /*END OF HEADER*/
 
-.container {
-    width: 1158px;
-}
 
 /*MAIN-PAGE*/
 
@@ -363,8 +360,6 @@ div .card-content {
     display: inline-flex;
     align-items: flex-start;
     gap: 24px;
-
-
 }
 
 
@@ -375,7 +370,7 @@ div .card-content {
 
     display: flex;
     list-style: none;
-    padding: 16px 32px;
+    /*padding: 16px 32px;*/
 }
 
 
@@ -459,25 +454,3 @@ div .card-content {
 /*END OF FOOTER*/
 
 /*PORTFOLIO*/
-
-.projects ul {
-    width: 100%;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-.projects li {
-    width: 360px;
-}
-
-.projects li img {
-    width: 100%;
-}
-
-.btn {
-    text-align: center;
-}
-
-.portfolio-buttons{
-    text-align: center;
-}
