@@ -10,7 +10,9 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    width: 1440px;
+    max-width: 1440px;
+    background-color: #fff;
+    margin: 0 auto;
 }
 
 a {
@@ -189,8 +191,8 @@ a {
     justify-content: center;
     gap: 30px;
     text-align: left;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 100;
+    padding-bottom: 100px;
 }
 
 .service-desc {
@@ -228,7 +230,6 @@ a {
 
 }
 
-
 /*END OF MAIN FEATURE*/
 
 
@@ -263,7 +264,7 @@ a {
 /*MAIN-TEAM*/
 .main-team {
     width: 1440px;
-    /*height: 732px;*/
+    height: 780px;
     flex-shrink: 0;
     background: var(--CLOUD);
     margin-bottom: 0;
@@ -449,9 +450,14 @@ div .card-content {
 }
 
 
+
 /*END OF FOOTER*/
 
 /*PORTFOLIO*/
+.main-portfolio {
+    width: 1440px;
+}
+
 .portfolio-buttons {
     display: inline-flex;
     align-items: center;
@@ -459,4 +465,40 @@ div .card-content {
     padding-bottom: 50px;
     justify-content: center;
 }
+
+.portfolio-buttons .active:hover,
+.portfolio-buttons .active:focus {
+    display: flex;
+    padding: 12px 24px;
+    align-items: flex-start;
+    color: var(--WHITE);
+    border-radius: 4px;
+    background: var(--OCEAN);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.filter-btn {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
+
+    color: var(--IRIS, #4D5AE5);
+    text-align: center;
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.64px;
+}
+
+
 /*END OF PORTFOLIO*/
+
