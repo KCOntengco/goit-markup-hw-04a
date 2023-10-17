@@ -448,9 +448,15 @@ div .card-content {
     letter-spacing: 0.32px;
 }
 
-.
-
 
 /*END OF FOOTER*/
 
 /*PORTFOLIO*/
+.portfolio-buttons {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+/*END OF PORTFOLIO*/
