@@ -191,7 +191,7 @@ a {
     justify-content: center;
     gap: 30px;
     text-align: left;
-    padding-top: 100;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
@@ -340,6 +340,9 @@ div .card-content {
     background-color: var(--IRIS);
     padding: 10px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .team-icons-socials svg {
@@ -351,18 +354,21 @@ div .card-content {
 /*CUSTOMER*/
 
 .customer-container {
-    height: 200px;
     align-items: center;
     text-align: center;
 }
 
 .customer-icon-container {
-    height: 200px;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 24px;
+    
 }
 
+.customer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 24px;
+}
 
 .customer-icon {
     width: 168px;
@@ -370,10 +376,19 @@ div .card-content {
     border: 1px solid #8E8F99;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     /*padding: 16px 32px;*/
 }
 
+.customer-icon svg {
+    fill: #8E8F99;
+}
+
+.customer-icon:hover svg {
+    fill: var(--OCEAN);
+}
 
 /*END OF CUSTOMER*/
 
@@ -392,13 +407,37 @@ div .card-content {
 
 .footer-logo a{
     text-decoration: none;
-    display: flex;
+    display: inline-flex;
 }
 
 .footer-logo {
     display: flex;
 }
 
+.footer-icons-socials {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--IRIS);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 16px;
+
+}
+
+footer{
+    display: flex;
+}
+
+.footer-text {
+    margin-right: 120px;
+}
 
 .webstudio-web {
     display: flex;
@@ -449,8 +488,6 @@ div .card-content {
     letter-spacing: 0.32px;
 }
 
-
-
 /*END OF FOOTER*/
 
 /*PORTFOLIO*/
@@ -460,10 +497,11 @@ div .card-content {
 
 .portfolio-buttons {
     display: inline-flex;
-    align-items: center;
-    gap: 24px;
     padding-bottom: 50px;
     justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-left: 30%;
 }
 
 .portfolio-buttons .active:hover,
@@ -497,6 +535,17 @@ div .card-content {
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.64px;
+}
+
+.proj-card {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.proj-card-content {
 }
 
 
